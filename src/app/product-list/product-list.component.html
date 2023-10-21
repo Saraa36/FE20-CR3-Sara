@@ -1,0 +1,10 @@
+<h3>Dish Details</h3>
+<div *ngFor="let product of products; index as i">
+  <h6>{{ product.name }}</h6>
+  <h6>{{ product.price }}</h6>
+  <!-- <h6>{{ product.description }}</h6> -->
+  <button routerLink="/product /{{ i }}" class="btn btn-success">
+    Details
+  </button>
+  <hr />
+</div>

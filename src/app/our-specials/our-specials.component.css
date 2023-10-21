@@ -1,0 +1,24 @@
+h3 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.card {
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.container {
+  padding: 35px;
+  position: center;
+  display: flex;
+  margin-right: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}

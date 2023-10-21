@@ -1,0 +1,61 @@
+/* img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  height: 80vh;
+} */
+.img {
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_1280.jpg);
+  background-position: center;
+}
+.image.overlay {
+  width: 100%;
+  height: 85vh;
+}
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(117, 117, 110, 0.253);
+  width: 100%;
+  height: 85vh;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 57%;
+  left: 35%;
+  text-align: center;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  color: white;
+  border-radius: 25px;
+  /* cursor: pointer; */
+  opacity: 0.8;
+  background-color: #0076b659;
+  padding: 12px 22px;
+}
