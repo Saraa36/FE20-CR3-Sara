@@ -1,5 +1,7 @@
 export interface Iproducts {
     name:string;
-    price:Number;
+    price:number;
     description: string
+    img:string ;
+
 }

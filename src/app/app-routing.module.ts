@@ -5,16 +5,22 @@ import { AboutComponent } from './about/about.component';
 import { OurSpecialsComponent } from './our-specials/our-specials.component';
 import { DetailsComponent } from './details/details.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { CartComponent } from './cart/cart.component';
 
 const routes: Routes = [{ 
   path: "", component: HomepageComponent
 },{
   path:"about", component: AboutComponent
 },{
-  path:"", component : ProductListComponent
+  path:"products", component : ProductListComponent
 },{
-  path:"product",component:DetailsComponent
+  path:"product/:id",component:DetailsComponent
+},{
+  path:"specials", component : OurSpecialsComponent
+},{
+  path: "cart", component:CartComponent
 }
+
 
  
 

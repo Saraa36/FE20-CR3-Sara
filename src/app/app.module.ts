@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { OurSpecialsComponent } from './our-specials/our-specials.component';
 import { DetailsComponent } from './details/details.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductListComponent } from './product-list/product-list.component';
     AboutComponent,
     OurSpecialsComponent,
     DetailsComponent,
-    ProductListComponent
+    ProductListComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
